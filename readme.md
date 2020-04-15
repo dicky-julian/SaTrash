@@ -3,8 +3,12 @@ Go Trash is a web-based application that aims to help the Indonesian community i
 
 ## How to use
 1. pull/clone repository
-2. open index file in directory pages/index.html
-3. enjoy !!!
+2. composer install
+3. config the .env
+4. on terminal "php artisan key:generate"
+5. on terminal "php artisan migrate:fresh --seed"
+6. and then "php artisan serve"
+7. open localhost:8000
 
 #### Happy Coding :)
 
